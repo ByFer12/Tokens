@@ -10,5 +10,12 @@ package analizadorSisntactico;
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
 public enum Token {
+    IDENTIFICADOR,
+    ENTERO,
+    DECIMAL,
+    SIMBOLO,
+    ERROR;
+    
+    
     
 }
